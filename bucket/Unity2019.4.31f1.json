@@ -15,7 +15,7 @@
         "D0D110FBE3D88E3FC485E89FB3453F7249630104ED09620EEBE18C9FAD98724E"
     ],
     "installer": {
-        "file": "unity2019.4.31f1.ps1",
+        "file": "UnityInst.ps1",
         "args": "$dir"
     },
     "uninstaller": {
