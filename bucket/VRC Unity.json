@@ -1,0 +1,24 @@
+{
+    "version": "2019.4.31f1",
+    "description": "Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Inc.'s Worldwide Developers Conference as a Mac OS X-exclusive game engine.",
+    "homepage": "https://unity.com/",
+    "license": {
+        "identifier": "Paid",
+        "url": "https://store.unity.com/compare-plans"
+    },
+    "url": [
+        "https://download.unity3d.com/download_unity/bd5abf232a62/Windows64EditorInstaller/UnitySetup64.exe",
+        "https://raw.githubusercontent.com/wedgevic/Unity-Bucket/main/bucket/Unity2019.4.31f1.ps1"
+    ],
+    "hash": [
+        "6B3EBD477A9A1329E8C75781CF85286EB0470964D22C474CEEB4C8C8FBA0552D",
+        "D0D110FBE3D88E3FC485E89FB3453F7249630104ED09620EEBE18C9FAD98724E"
+    ],
+    "installer": {
+        "file": "UnityInst.ps1",
+        "args": "$dir"
+    },
+    "uninstaller": {
+        "script": "start 'c:\\Program Files\\Unity\\Editor\\Uninstall.exe /S' -wait"
+    }
+}
